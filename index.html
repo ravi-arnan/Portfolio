@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Ravi Arnan Irianto - Web Developer & IT Student Portfolio</title>
+    <meta name="title" content="Ravi Arnan Irianto - Web Developer & IT Student Portfolio">
+    <meta name="description" content="Portfolio Ravi Arnan Irianto - Mahasiswa Teknologi Informasi Universitas Udayana yang aktif berorganisasi. Juara 1 Catur SPORTI 2024 & 2025, Finalis Pilmapres TI 2024, dan Penerima BSI Scholarship 2024.">
+    <meta name="keywords" content="Ravi Arnan Irianto, Web Developer, Portfolio, Teknologi Informasi, Universitas Udayana, IT Student, Bali, Indonesia, Laravel, Android Developer, Firebase">
+    <meta name="author" content="Ravi Arnan Irianto">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://raviarnan.netlify.app/">
+    <meta property="og:title" content="Ravi Arnan Irianto - Web Developer & IT Student Portfolio">
+    <meta property="og:description" content="Portfolio Ravi Arnan Irianto - Mahasiswa Teknologi Informasi Universitas Udayana yang aktif berorganisasi. Juara 1 Catur SPORTI, Finalis Pilmapres TI, dan Penerima BSI Scholarship.">
+    <meta property="og:image" content="https://raviarnan.netlify.app/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:site_name" content="Ravi Arnan Irianto Portfolio">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://raviarnan.netlify.app/">
+    <meta property="twitter:title" content="Ravi Arnan Irianto - Web Developer & IT Student Portfolio">
+    <meta property="twitter:description" content="Portfolio Ravi Arnan Irianto - Mahasiswa Teknologi Informasi Universitas Udayana yang aktif berorganisasi. Juara 1 Catur SPORTI, Finalis Pilmapres TI, dan Penerima BSI Scholarship.">
+    <meta property="twitter:image" content="https://raviarnan.netlify.app/images/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0a0e27">
+    <meta name="msapplication-TileColor" content="#0a0e27">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://raviarnan.netlify.app/">
+    
+    <!-- Additional SEO -->
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("3V0lm5q-dthGMjoGy");
+        })();
+    </script>
+    
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ravi Arnan Irianto",
+      "url": "https://raviarnan.netlify.app/",
+      "image": "https://raviarnan.netlify.app/images/foto_ravi.jpg",
+      "sameAs": [
+        "https://github.com/ravi-arnan",
+        "https://linkedin.com/in/raviarnan",
+        "https://instagram.com/ravi_arnan"
+      ],
+      "jobTitle": "IT Student & Web Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Universitas Udayana"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Universitas Udayana"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bali",
+        "addressCountry": "Indonesia"
+      },
+      "email": "ravinissa@gmail.com",
+      "description": "Mahasiswa Teknologi Informasi Universitas Udayana yang aktif berorganisasi. Juara 1 Lomba Catur SPORTI 2024 & 2025, Finalis Pilmapres TI 2024, dan Penerima BSI Scholarship Inspirasi 2024."
+    }
+    </script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero" class="section hero">
+        <div>
+            <p class="welcome-text">Welcome Everyone</p>
+            <h1 class="name">
+                <span class="name-label">My Name is</span><br>
+                Ravi Arnan Irianto
+            </h1>
+            <p class="slogan">I am <span class="typing-text" id="typingText"></span></p>
+            <a class="cta-button" onclick="showAbout()">Get to Know Me More</a>
+        </div>
+        
+        <div class="footer">
+            <div class="social-links">
+                <a href="https://github.com/ravi-arnan" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/raviarnan" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com/ravi_arnan" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://discord.com/users/raviarnan" target="_blank" title="Discord">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about hidden">
+        <div>
+            <h2>About Me</h2>
+            
+            <div class="about-intro">
+                <div class="profile-photo">
+                    <img src="images/foto_ravi.jpg" alt="Ravi Arnan Irianto">
+                </div>
+                <div class="about-content">
+                    <p>
+                        Saya adalah mahasiswa semester 5 Teknologi Informasi Universitas Udayana yang aktif berorganisasi, saat ini
+menjabat sebagai Sekretaris Umum HMI Komisariat TMKP, anggota Komisi V DPM PM Udayana, serta Kepala
+Divisi Pers dan Media Kreatif UKKI FPMI. Saya memiliki minat kuat pada rekayasa perangkat lunak dan
+keamanan siber yang saya kembangkan melalui berbagai proyek berbasis Laravel di lingkungan Debian, serta
+keterlibatan dalam desain grafis untuk mendukung kegiatan kampus. 
+                    </p>
+                    <p>
+                        Dalam perjalanan akademik, saya telah meraih sejumlah pencapaian, di antaranya juara 1 lomba catur SPORTI 2024 & 2025, finalis Pilmapres TI 2024, asisten dosen Jaringan Komputer 2025, dan penerima BSI Scholarship Inspirasi 2024.
+                    </p>
+                    <a href="files/CV_Ravi_Arnan_Irianto.pdf" download class="cv-download-button">
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="content-section">
+                <div class="section-header" onclick="toggleSection('education')">
+                    <span>Education</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="education">
+                    <div class="education-item">
+                        <div class="education-logo">
+                            <img src="images/universitas_udayana_logo.png" alt="University Logo">
+                        </div>
+                        <div class="education-content">
+                            <h4>Universitas Udayana</h4>
+                            <p class="year">2023 - Sekarang</p>
+                            <p>Sarjana Teknologi Informasi - IPK: 3.65</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-logo">
+                            <img src="images/sma_negeri_2_purwokerto_logo.png" alt="High School Logo">
+                        </div>
+                        <div class="education-content">
+                            <h4>SMA Negeri 2 Purwokerto</h4>
+                            <p class="year">2020 - 2023</p>
+                            <p>Jurusan MIPA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="content-section">
+                <div class="section-header" onclick="toggleSection('projects')">
+                    <span>Projects</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="projects">
+                    <div class="project-item">
+                        <div class="project-thumbnail">
+                            <img src="images/belajarges.png" alt="BelajarGes">
+                        </div>
+                        <div class="project-content">
+                            <h4>BelajarGes - To-Do List App</h4>
+                            <p class="tech">Java, Android, Firebase</p>
+                            <p>Aplikasi Android untuk membantu mahasiswa mengelola tugas-tugas kuliah dengan fitur CRUD mata kuliah, manajemen tugas, otentikasi Google Sign-In, dan pengingat deadline menggunakan Firebase.</p>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/ravi-arnan/belajarges" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-item">
+                        <div class="project-thumbnail">
+                            <img src="images/deteksi_perokok.png" alt="Deteksi Perokok">
+                        </div>
+                        <div class="project-content">
+                            <h4>Deteksi Perokok - Computer Vision</h4>
+                            <p class="tech">Python, TensorFlow, OpenCV, YOLOv8</p>
+                            <p>Sistem deteksi aktivitas merokok berbasis computer vision dan deep learning untuk pemantauan area bebas rokok secara real-time. Menggunakan object detection untuk mengidentifikasi individu yang sedang merokok dari gambar atau video.</p>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/ravi-arnan/deteksi_perokok" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-item">
+                        <div class="project-thumbnail">
+                            <img src="images/arba.png" alt="ARBA">
+                        </div>
+                        <div class="project-content">
+                            <h4>ARBA - Augmented Reality Book Assistant</h4>
+                            <p class="tech">TypeScript, React, Figma, UI/UX Design</p>
+                            <p>Prototype aplikasi edukasi berbasis Augmented Reality yang dirancang sebagai asisten buku digital. Fokus pada desain UI/UX modern dengan navigasi intuitif dan layout responsif untuk pengalaman pembelajaran interaktif.</p>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/ravi-arnan/Arba" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>View on GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="content-section">
+                <div class="section-header" onclick="toggleSection('skills')">
+                    <span>Skills</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="skills">
+                    <div class="skills-grid">
+                        <div class="skill-item">HTML/CSS</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">React</div>
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">Git</div>
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">UI/UX Design</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievements Section -->
+            <div class="content-section">
+                <div class="section-header" onclick="toggleSection('achievements')">
+                    <span>Achievements</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="achievements">
+                    <div class="achievements-grid">
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <h4>Juara 1 Lomba Catur SPORTI</h4>
+                            <span class="year">2024 & 2025</span>
+                            <p>Meraih juara pertama dalam Lomba Catur SPORTI (Sportivitas Teknologi Informasi) selama dua tahun berturut-turut, menunjukkan kemampuan strategi dan problem-solving yang konsisten.</p>
+                            <span class="achievement-badge">🥇 Champion</span>
+                        </div>
+
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <h4>Finalis Pilmapres TI</h4>
+                            <span class="year">2024</span>
+                            <p>Terpilih sebagai finalis Pemilihan Mahasiswa Berprestasi Teknologi Informasi 2024, mewakili fakultas dalam kompetisi bergengsi tingkat universitas.</p>
+                            <span class="achievement-badge">🏆 Finalist</span>
+                        </div>
+
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-chalkboard-teacher"></i>
+                            </div>
+                            <h4>Asisten Dosen Jaringan Komputer</h4>
+                            <span class="year">2025</span>
+                            <p>Dipercaya sebagai asisten dosen untuk mata kuliah Jaringan Komputer, membantu mahasiswa memahami konsep networking dan troubleshooting.</p>
+                            <span class="achievement-badge">📚 Teaching</span>
+                        </div>
+
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4>BSI Scholarship Inspirasi</h4>
+                            <span class="year">2024</span>
+                            <p>Penerima beasiswa BSI Scholarship Inspirasi 2024, penghargaan untuk mahasiswa berprestasi dengan kontribusi aktif dalam kegiatan akademik dan organisasi.</p>
+                            <span class="achievement-badge">💰 Scholarship</span>
+                        </div>
+
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>Sekretaris Umum HMI Komisariat TMKP</h4>
+                            <span class="year">2024 - Sekarang</span>
+                            <p>Menjabat sebagai Sekretaris Umum di Himpunan Mahasiswa Islam Komisariat TMKP, mengelola administrasi dan koordinasi kegiatan organisasi.</p>
+                            <span class="achievement-badge">🎯 Leadership</span>
+                        </div>
+
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <h4>Kepala Divisi Pers dan Media Kreatif</h4>
+                            <span class="year">2024 - Sekarang</span>
+                            <p>Memimpin Divisi Pers dan Media Kreatif di UKKI FPMI, bertanggung jawab atas konten visual, dokumentasi, dan publikasi kegiatan kampus.</p>
+                            <span class="achievement-badge">🎨 Creative</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interest & Hobbies Section -->
+            <div class="content-section">
+                <div class="section-header" onclick="toggleSection('hobbies')">
+                    <span>Interest & Hobbies</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="hobbies">
+                    <div class="hobbies-grid">
+                        <div class="hobby-item">
+                            <img src="images/Committee.JPG" alt="Committee">
+                            <div class="hobby-overlay">
+                                <h4>Committee</h4>
+                            </div>
+                        </div>
+                        <div class="hobby-item">
+                            <img src="images/contribute.jpg" alt="Contribute">
+                            <div class="hobby-overlay">
+                                <h4>Contribute</h4>
+                            </div>
+                        </div>
+                        <div class="hobby-item">
+                            <img src="images/music.png" alt="Music">
+                            <div class="hobby-overlay">
+                                <h4>Music</h4>
+                            </div>
+                        </div>
+                        <div class="hobby-item">
+                            <img src="images/grilling.JPG" alt="Grilling">
+                            <div class="hobby-overlay">
+                                <h4>Grilling</h4>
+                            </div>
+                        </div>
+                        <div class="hobby-item">
+                            <img src="images/organization.jpeg" alt="Organization">
+                            <div class="hobby-overlay">
+                                <h4>Organization</h4>
+                            </div>
+                        </div>
+                        <div class="hobby-item">
+                            <img src="images/statue.jpg" alt="Travel">
+                            <div class="hobby-overlay">
+                                <h4>Travel</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="content-section">
+                <div class="section-header" onclick="toggleSection('contact')">
+                    <span>Contact</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="section-content" id="contact">
+                    <div class="contact-section-wrapper">
+                        <div class="contact-left">
+                            <h3>Contact Me</h3>
+                            <p class="subtitle">Let's Get in Touch!</p>
+                            <p class="description">I'd love to hear your message</p>
+                            
+                            <div class="contact-info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>ravinissa@gmail.com</span>
+                            </div>
+                            <div class="contact-info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Bali - Indonesia</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-right">
+                            <form class="contact-form" id="contactForm" onsubmit="return handleSubmit(event)">
+                                <div class="form-group">
+                                    <label>Your name</label>
+                                    <input type="text" name="from_name" id="from_name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email address</label>
+                                    <input type="email" name="from_email" id="from_email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Message</label>
+                                    <textarea name="message" id="message" required></textarea>
+                                </div>
+                                <div class="form-message" id="formMessage"></div>
+                                <button type="submit" class="submit-button" id="submitBtn">
+                                    Send <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="back-button" onclick="showHero()">← Back to Home</button>
+
+            <!-- Footer Social Links -->
+            <div class="about-footer">
+                <div class="social-links">
+                    <a href="https://github.com/ravi-arnan" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/raviarnan" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/ravi_arnan" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://discord.com/users/raviarnan" target="_blank" title="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
